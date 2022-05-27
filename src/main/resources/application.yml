@@ -1,0 +1,12 @@
+server:
+  port: ${server_port:8080}
+  servlet:
+    context-path: /data-ananlytics
+spring:
+  application:
+    name: data-analytics-app
+  profiles:
+    active: test
+  jpa:
+    hibernate:
+      ddl-auto: update
